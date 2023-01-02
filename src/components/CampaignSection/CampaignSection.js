@@ -11,7 +11,8 @@ const CampaignSection = () => {
     const endDate = new Date(PrismaPlannedSpend.client1.campaign1['end-date'])
     const endMonth = endDate.getMonth()+1;
 
-    const MOSArray = []
+    const MOSArray = [];
+    console.log('hey')
 
     const monthlyCostsDivs = []
 
