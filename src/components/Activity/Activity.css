@@ -1,0 +1,8 @@
+.activitySquare{
+    height: fit-content;
+    border: solid black 1px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+}
