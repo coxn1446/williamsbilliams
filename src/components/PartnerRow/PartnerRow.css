@@ -1,0 +1,4 @@
+.partnerRow{
+    grid-row: span 1;
+    display: grid;
+}

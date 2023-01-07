@@ -1,0 +1,25 @@
+.clientSection {
+    grid-column: 1 / span 31;
+    display: grid;
+    grid-template-columns: repeat(28, 40.5px);
+}
+
+.headersRow{
+    display: grid;
+    grid-column: 2 / span 28;
+}
+
+.campaignNameColumn {
+    border: solid black 1px;
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.campaignName{
+    grid-row: 5 / span 1;
+    text-align: center;
+    font-size: 12px;
+
+}

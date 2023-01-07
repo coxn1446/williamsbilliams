@@ -1,11 +1,13 @@
 import './App.css';
-import CampaignSection from './components/CampaignSection/CampaignSection';
+import ClientSection from "./components/ClientSection/ClientSection"
+import Form from "./components/Form/Form"
 
 function App() {
   return (
-    <div>
-      <h1>William's Billiams</h1>
-      <CampaignSection></CampaignSection>
+    <div className="gridContainer">
+      <h1>William's Bill-(iam)s</h1>
+      <Form key="form1"></Form>
+      <ClientSection key="clientSection1"></ClientSection>
     </div>
   );
 }
