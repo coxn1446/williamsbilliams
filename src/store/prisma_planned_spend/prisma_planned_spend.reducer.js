@@ -8,12 +8,12 @@ const prismaPlannedSpendSlice = createSlice({
             "client1": {
                 "campaign1": {
                     "name": "campaign1",
-                    "planned-cost": 1364674.97,
+                    "planned-cost": 1364674,
                     "start-date": "8/16/22",
                     "end-date": "12/31/22",
                     "partners": {
                         "Meta": {
-                            "planned-cost": 145906.70, 
+                            "planned-cost": 145906, 
                             "start-date": "8/16/22",
                             "end-date": "10/31/22",
                             "monthly-costs": {
@@ -24,15 +24,15 @@ const prismaPlannedSpendSlice = createSlice({
                                 "May 01 2022": 0,
                                 "Jun 01 2022": 0,
                                 "Jul 01 2022": 0,
-                                "Aug 01 2022": 18736.85,
-                                "Sep 01 2022": 42558.14,
-                                "Oct 01 2022": 84611.71,
+                                "Aug 01 2022": 18736,
+                                "Sep 01 2022": 42558,
+                                "Oct 01 2022": 84611,
                                 "Nov 01 2022": 0,
                                 "Dec 01 2022": 0
                             }
                         },
                         "Apex": {
-                            "planned-cost": 124999.98, 
+                            "planned-cost": 124999, 
                             "start-date": "8/16/22",
                             "end-date": "10/31/22",
                             "monthly-costs": {
@@ -43,15 +43,15 @@ const prismaPlannedSpendSlice = createSlice({
                                 "May 01 2022": 0,
                                 "Jun 01 2022": 0,
                                 "Jul 01 2022": 0,
-                                "Aug 01 2022": 831.12,
-                                "Sep 01 2022": 70949.53,
-                                "Oct 01 2022": 53219.33,
+                                "Aug 01 2022": 831,
+                                "Sep 01 2022": 70949,
+                                "Oct 01 2022": 53219,
                                 "Nov 01 2022": 0,
                                 "Dec 01 2022": 0
                             }
                         },
                         "Bustle": {
-                            "planned-cost": 100000.00, 
+                            "planned-cost": 100000, 
                             "start-date": "8/16/22",
                             "end-date": "10/31/22",
                             "monthly-costs": {
@@ -62,15 +62,15 @@ const prismaPlannedSpendSlice = createSlice({
                                 "May 01 2022": 0,
                                 "Jun 01 2022": 0,
                                 "Jul 01 2022": 0,
-                                "Aug 01 2022": 919.80,
-                                "Sep 01 2022": 34469.20,
-                                "Oct 01 2022": 64611.00,
+                                "Aug 01 2022": 919,
+                                "Sep 01 2022": 34469,
+                                "Oct 01 2022": 64611,
                                 "Nov 01 2022": 0,
                                 "Dec 01 2022": 0
                             }
                         },
                         "Ebony": {
-                            "planned-cost": 267140.40, 
+                            "planned-cost": 267140, 
                             "start-date": "9/5/22",
                             "end-date": "10/31/22",
                             "monthly-costs": {
@@ -82,14 +82,14 @@ const prismaPlannedSpendSlice = createSlice({
                                 "Jun 01 2022": 0,
                                 "Jul 01 2022": 0,
                                 "Aug 01 2022": 0,
-                                "Sep 01 2022": 144464.75,
-                                "Oct 01 2022": 122675.65,
+                                "Sep 01 2022": 144464,
+                                "Oct 01 2022": 122675,
                                 "Nov 01 2022": 0,
                                 "Dec 01 2022": 0
                             }
                         },
                         "Hearst": {
-                            "planned-cost": 249227.81, 
+                            "planned-cost": 249227, 
                             "start-date": "10/1/22",
                             "end-date": "12/28/22",
                             "monthly-costs": {
@@ -102,13 +102,13 @@ const prismaPlannedSpendSlice = createSlice({
                                 "Jul 01 2022": 0,
                                 "Aug 01 2022": 0,
                                 "Sep 01 2022": 0,
-                                "Oct 01 2022": 249227.81,
+                                "Oct 01 2022": 249227,
                                 "Nov 01 2022": 0,
                                 "Dec 01 2022": 0
                             }
                         },
                         "Pinterest": {
-                            "planned-cost": 99333.88, 
+                            "planned-cost": 99333, 
                             "start-date": "8/16/22",
                             "end-date": "10/31/22",
                             "monthly-costs": {
@@ -119,15 +119,15 @@ const prismaPlannedSpendSlice = createSlice({
                                 "May 01 2022": 0,
                                 "Jun 01 2022": 0,
                                 "Jul 01 2022": 0,
-                                "Aug 01 2022": 10095.92,
-                                "Sep 01 2022": 41020.13,
-                                "Oct 01 2022": 48217.83,
+                                "Aug 01 2022": 10095,
+                                "Sep 01 2022": 41020,
+                                "Oct 01 2022": 48217,
                                 "Nov 01 2022": 0,
                                 "Dec 01 2022": 0
                             }
                         },
                         "Snapchat": {
-                            "planned-cost": 74351.83, 
+                            "planned-cost": 74351, 
                             "start-date": "8/16/22",
                             "end-date": "10/31/22",
                             "monthly-costs": {
@@ -138,15 +138,15 @@ const prismaPlannedSpendSlice = createSlice({
                                 "May 01 2022": 0,
                                 "Jun 01 2022": 0,
                                 "Jul 01 2022": 0,
-                                "Aug 01 2022": 17059.71,
-                                "Sep 01 2022": 39179.43,
-                                "Oct 01 2022": 18112.69,
+                                "Aug 01 2022": 17059,
+                                "Sep 01 2022": 39179,
+                                "Oct 01 2022": 18112,
                                 "Nov 01 2022": 0,
                                 "Dec 01 2022": 0
                             }
                         },
                         "TikTok": {
-                            "planned-cost": 149258.54, 
+                            "planned-cost": 149258, 
                             "start-date": "8/16/22",
                             "end-date": "10/31/22",
                             "monthly-costs": {
@@ -157,9 +157,9 @@ const prismaPlannedSpendSlice = createSlice({
                                 "May 01 2022": 0,
                                 "Jun 01 2022": 0,
                                 "Jul 01 2022": 0,
-                                "Aug 01 2022": 17265.25,
-                                "Sep 01 2022": 58025.58,
-                                "Oct 01 2022": 73967.71,
+                                "Aug 01 2022": 17265,
+                                "Sep 01 2022": 58025,
+                                "Oct 01 2022": 73967,
                                 "Nov 01 2022": 0,
                                 "Dec 01 2022": 0
                             }
@@ -176,9 +176,9 @@ const prismaPlannedSpendSlice = createSlice({
                                 "May 01 2022": 0,
                                 "Jun 01 2022": 0,
                                 "Jul 01 2022": 0,
-                                "Aug 01 2022": 15772.19,
-                                "Sep 01 2022": 76566.49,
-                                "Oct 01 2022": 57661.32,
+                                "Aug 01 2022": 15772,
+                                "Sep 01 2022": 76566,
+                                "Oct 01 2022": 57661,
                                 "Nov 01 2022": 0,
                                 "Dec 01 2022": 0
                             }
@@ -187,12 +187,12 @@ const prismaPlannedSpendSlice = createSlice({
                 },
                 "campaign2": {
                     "name": "campaign2",
-                    "planned-cost": 1364674.97,
+                    "planned-cost": 1364674,
                     "start-date": "1/16/22",
                     "end-date": "3/31/22",
                     "partners": {
                         "Meta": {
-                            "planned-cost": 145906.70, 
+                            "planned-cost": 145906, 
                             "start-date": "1/16/22",
                             "end-date": "3/31/22",
                             "monthly-costs": {
@@ -211,7 +211,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Apex": {
-                            "planned-cost": 124999.98, 
+                            "planned-cost": 124999, 
                             "start-date": "1/16/22",
                             "end-date": "3/31/22",
                             "monthly-costs": {
@@ -230,7 +230,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Bustle": {
-                            "planned-cost": 100000.00, 
+                            "planned-cost": 100000, 
                             "start-date": "1/16/22",
                             "end-date": "3/31/22",
                             "monthly-costs": {
@@ -249,7 +249,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Ebony": {
-                            "planned-cost": 267140.40, 
+                            "planned-cost": 267140, 
                             "start-date": "1/16/22",
                             "end-date": "3/31/22",
                             "monthly-costs": {
@@ -268,7 +268,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Hearst": {
-                            "planned-cost": 249227.81, 
+                            "planned-cost": 249227, 
                             "start-date": "1/16/22",
                             "end-date": "3/31/22",
                             "monthly-costs": {
@@ -287,7 +287,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Pinterest": {
-                            "planned-cost": 99333.88, 
+                            "planned-cost": 99333, 
                             "start-date": "1/16/22",
                             "end-date": "3/31/22",
                             "monthly-costs": {
@@ -306,7 +306,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Snapchat": {
-                            "planned-cost": 74351.83, 
+                            "planned-cost": 74351, 
                             "start-date": "1/16/22",
                             "end-date": "3/31/22",
                             "monthly-costs": {
@@ -325,7 +325,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "TikTok": {
-                            "planned-cost": 149258.54, 
+                            "planned-cost": 149258, 
                             "start-date": "1/16/22",
                             "end-date": "3/31/22",
                             "monthly-costs": {
@@ -366,12 +366,12 @@ const prismaPlannedSpendSlice = createSlice({
                 },
                 "campaign3": {
                     "name": "campaign3",
-                    "planned-cost": 1364674.97,
+                    "planned-cost": 1000,
                     "start-date": "1/16/22",
                     "end-date": "6/31/22",
                     "partners": {
                         "Meta": {
-                            "planned-cost": 145906.70, 
+                            "planned-cost": 500, 
                             "start-date": "1/16/22",
                             "end-date": "6/31/22",
                             "monthly-costs": {
@@ -390,7 +390,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Apex": {
-                            "planned-cost": 124999.98, 
+                            "planned-cost": 124999, 
                             "start-date": "1/16/22",
                             "end-date": "6/31/22",
                             "monthly-costs": {
@@ -409,7 +409,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Bustle": {
-                            "planned-cost": 100000.00, 
+                            "planned-cost": 100000, 
                             "start-date": "1/16/22",
                             "end-date": "6/31/22",
                             "monthly-costs": {
@@ -428,7 +428,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Ebony": {
-                            "planned-cost": 267140.40, 
+                            "planned-cost": 267140, 
                             "start-date": "1/16/22",
                             "end-date": "6/31/22",
                             "monthly-costs": {
@@ -447,7 +447,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Hearst": {
-                            "planned-cost": 249227.81, 
+                            "planned-cost": 249227, 
                             "start-date": "1/16/22",
                             "end-date": "6/31/22",
                             "monthly-costs": {
@@ -466,7 +466,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Pinterest": {
-                            "planned-cost": 99333.88, 
+                            "planned-cost": 99333, 
                             "start-date": "1/16/22",
                             "end-date": "6/31/22",
                             "monthly-costs": {
@@ -485,7 +485,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Snapchat": {
-                            "planned-cost": 74351.83, 
+                            "planned-cost": 74351, 
                             "start-date": "1/16/22",
                             "end-date": "6/31/22",
                             "monthly-costs": {
@@ -523,7 +523,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Vox": {
-                            "planned-cost": 150000, 
+                            "planned-cost": 1000, 
                             "start-date": "1/16/22",
                             "end-date": "6/31/22",
                             "monthly-costs": {
@@ -545,12 +545,12 @@ const prismaPlannedSpendSlice = createSlice({
                 },
                 "campaign4": {
                     "name": "campaign4",
-                    "planned-cost": 1364674.97,
+                    "planned-cost": 1364674,
                     "start-date": "4/16/22",
                     "end-date": "8/31/22",
                     "partners": {
                         "Meta": {
-                            "planned-cost": 145906.70, 
+                            "planned-cost": 145906, 
                             "start-date": "4/16/22",
                             "end-date": "8/31/22",
                             "monthly-costs": {
@@ -569,7 +569,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Apex": {
-                            "planned-cost": 124999.98, 
+                            "planned-cost": 124999, 
                             "start-date": "4/16/22",
                             "end-date": "8/31/22",
                             "monthly-costs": {
@@ -588,7 +588,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Bustle": {
-                            "planned-cost": 100000.00, 
+                            "planned-cost": 100000, 
                             "start-date": "4/16/22",
                             "end-date": "8/31/22",
                             "monthly-costs": {
@@ -607,7 +607,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Ebony": {
-                            "planned-cost": 267140.40, 
+                            "planned-cost": 267140, 
                             "start-date": "4/16/22",
                             "end-date": "8/31/22",
                             "monthly-costs": {
@@ -626,7 +626,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Hearst": {
-                            "planned-cost": 249227.81, 
+                            "planned-cost": 249227, 
                             "start-date": "4/16/22",
                             "end-date": "8/31/22",
                             "monthly-costs": {
@@ -645,7 +645,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Pinterest": {
-                            "planned-cost": 99333.88, 
+                            "planned-cost": 99333, 
                             "start-date": "4/16/22",
                             "end-date": "8/31/22",
                             "monthly-costs": {
@@ -664,7 +664,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "Snapchat": {
-                            "planned-cost": 74351.83, 
+                            "planned-cost": 74351, 
                             "start-date": "4/16/22",
                             "end-date": "8/31/22",
                             "monthly-costs": {
@@ -683,7 +683,7 @@ const prismaPlannedSpendSlice = createSlice({
                             }
                         },
                         "TikTok": {
-                            "planned-cost": 149258.54, 
+                            "planned-cost": 149258, 
                             "start-date": "4/16/22",
                             "end-date": "8/31/22",
                             "monthly-costs": {
@@ -726,6 +726,12 @@ const prismaPlannedSpendSlice = createSlice({
         }
     },
     reducers: {
+        editPartnerPlannedSpend: (state, action) => {
+            state.allClients.client1[action.campaign].partners[action.partner]["planned-cost"] = Number(action.amount)
+        },
+        editMonthlyPlannedSpend: (state, action) => {
+            state.allClients.client1[action.campaign].partners[action.partner]["monthly-costs"][action.month] = Number(action.amount)
+        }
     }
 })
 

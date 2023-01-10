@@ -32,9 +32,10 @@ const PartnerRow = (props) => {
     //iterates through each month for a specific partner and pushes an <Activity> component into an array
     for (const month in plannedSpend) {
         partnerRow.push(
-             <Activity key={`activity${campaign}${partner}${month}`} partnerInvoiceSum={props.partnerInvoiceSum} partnerPlannedSum={props.partnerPlannedSum} plannedSpend={plannedSpend[month]} invoice={invoices[month]} aging={agingReport[month]} payHistory={payHistory[month]} campaign={campaign} partner={partner}></Activity>
+             <Activity key={`activity${campaign}${partner}${month}`} id={`activity${campaign}${partner}${month}`} partnerInvoiceSum={props.partnerInvoiceSum} partnerPlannedSum={props.partnerPlannedSum} plannedSpend={plannedSpend[month]} invoice={invoices[month]} aging={agingReport[month]} payHistory={payHistory[month]} campaign={campaign} partner={partner} month={month}></Activity>
         )
       }
+  
   
   return (
       partnerRow

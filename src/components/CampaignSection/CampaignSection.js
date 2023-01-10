@@ -9,7 +9,7 @@ import PartnerRow from "../PartnerRow/PartnerRow"
 //State Selectors
 import {selectPrismaPlannedSpend} from "../../store/prisma_planned_spend/prisma_planned_spend.reducer"
 import {selectInvoices} from "../../store/invoices/invoices.reducer"
-import {selectClient, selectCampaign, selectPartner} from "../../store/app/app.reducer"
+import {selectClient, selectPartner} from "../../store/app/app.reducer"
 
 const CampaignSection = (props) => {
     //initializes state within the components
@@ -61,7 +61,7 @@ const CampaignSection = (props) => {
                 <div className="partnerRow" style={{gridColumn: `1 / span ${28}`}}>
                     <div key={`partnerName${key}`} className="activitySquare">{partner}</div>
                         <PartnerRow key={`partnerRow${campaign}${partner}`} rowIndex={key} partnerInvoiceSum={invoiceSum} partnerPlannedSum={partnerPlannedSum} client={client} campaign={campaign} partner={partner}></PartnerRow>
-                    <div key={`partnerSum${key}`} style={{color: 'white', backgroundColor: 'black'}} className="activitySquare">{partnerPlannedSum}</div>
+                    <div key={`partnerSum${key}`} style={{color: 'white', backgroundColor: 'black'}} className="activitySquare">{`$${partnerPlannedSum.toLocaleString()}`}</div>
                 </div>
             )
         }
@@ -91,7 +91,7 @@ const CampaignSection = (props) => {
             <div className="partnerRow" style={{gridColumn: `1 / span ${28}`}}>
                 <div key={`partnerName${key}`}className="activitySquare">{partner1}</div>
                     <PartnerRow key={`partnerRow${campaign}${partner1}`} rowIndex={key} partnerInvoiceSum={invoiceSum} partnerPlannedSum={partnerPlannedSum} client={client} campaign={campaign} partner={partner1}></PartnerRow>
-                <div key={`partnerSum${key}`} style={{color: 'white', backgroundColor: 'black'}} className="activitySquare">{partnerPlannedSum}</div>
+                <div key={`partnerSum${key}`} style={{color: 'white', backgroundColor: 'black'}} className="activitySquare">{`$${partnerPlannedSum.toLocaleString()}`}</div>
             </div>
         )
     }
@@ -108,7 +108,7 @@ const CampaignSection = (props) => {
                     <div className="totalRow">
                         <div className="activitySquare">Total</div>
                         {monthlyPlannedSpendDivs}
-                        <div style={{color: 'white', backgroundColor: 'black'}} className="activitySquare">{Math.round(campaignTotal * 100) / 100}</div>
+                        <div style={{color: 'white', backgroundColor: 'black'}} className="activitySquare">{`$${(Math.round((campaignTotal * 100) / 1000).toLocaleString())}`}</div>
                     </div>
                 </div>
             )
@@ -119,7 +119,7 @@ const CampaignSection = (props) => {
                     <div className="totalRow">
                         <div className="activitySquare">Total</div>
                         {monthlyPlannedSpendDivs}
-                        <div style={{color: 'white', backgroundColor: 'black'}} className="activitySquare">{Math.round(campaignTotal * 100) / 100}</div>
+                        <div style={{color: 'white', backgroundColor: 'black'}} className="activitySquare">{`$${(Math.round((campaignTotal * 100) / 1000).toLocaleString())}`}</div>
                     </div>
                 </div>
             )

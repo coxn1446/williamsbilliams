@@ -74,7 +74,7 @@ const agingSlice = createSlice({
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
                             "Sep 01 2022": 0,
-                            "Oct 01 2022": 249227.81,
+                            "Oct 01 2022": 249227,
                             "Nov 01 2022": 0,
                             "Dec 01 2022": 0
                         },
@@ -286,8 +286,8 @@ const agingSlice = createSlice({
                             "Jan 01 2022": 50,
                             "Feb 01 2022": 100,
                             "Mar 01 2022": 200,
-                            "Apr 01 2022": 600,
-                            "May 01 2022": 100,
+                            "Apr 01 2022": 0,
+                            "May 01 2022": 0,
                             "Jun 01 2022": 1000,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
@@ -300,8 +300,8 @@ const agingSlice = createSlice({
                             "Jan 01 2022": 50,
                             "Feb 01 2022": 100,
                             "Mar 01 2022": 200,
-                            "Apr 01 2022": 600,
-                            "May 01 2022": 100,
+                            "Apr 01 2022": 0,
+                            "May 01 2022": 0,
                             "Jun 01 2022": 1000,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
@@ -316,7 +316,7 @@ const agingSlice = createSlice({
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
-                            "Jun 01 2022": 1000,
+                            "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
                             "Sep 01 2022": 0,
@@ -330,7 +330,7 @@ const agingSlice = createSlice({
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
-                            "Jun 01 2022": 1000,
+                            "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
                             "Sep 01 2022": 0,
@@ -344,7 +344,7 @@ const agingSlice = createSlice({
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
-                            "Jun 01 2022": 1000,
+                            "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
                             "Sep 01 2022": 0,
@@ -356,8 +356,8 @@ const agingSlice = createSlice({
                             "Jan 01 2022": 50,
                             "Feb 01 2022": 100,
                             "Mar 01 2022": 200,
-                            "Apr 01 2022": 600,
-                            "May 01 2022": 100,
+                            "Apr 01 2022": 0,
+                            "May 01 2022": 0,
                             "Jun 01 2022": 1000,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
@@ -370,8 +370,8 @@ const agingSlice = createSlice({
                             "Jan 01 2022": 50,
                             "Feb 01 2022": 100,
                             "Mar 01 2022": 200,
-                            "Apr 01 2022": 600,
-                            "May 01 2022": 100,
+                            "Apr 01 2022": 0,
+                            "May 01 2022": 0,
                             "Jun 01 2022": 1000,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
@@ -530,6 +530,9 @@ const agingSlice = createSlice({
         }
     },
     reducers: {
+        receiveClientPayment: (state, action) => {
+            state.allClients.client1[action.campaign].partners[action.partner][action.month] = Number(0)
+        }
     }
 })
 

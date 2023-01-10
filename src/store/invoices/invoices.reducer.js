@@ -16,9 +16,9 @@ const invoicesSlice = createSlice({
                             "May 01 2022": 0,
                             "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
-                            "Aug 01 2022": 8736.85,
-                            "Sep 01 2022": 42558.14,
-                            "Oct 01 2022": 84611.71,
+                            "Aug 01 2022": 8736,
+                            "Sep 01 2022": 42558,
+                            "Oct 01 2022": 84611,
                             "Nov 01 2022": 0,
                             "Dec 01 2022": 0
                         },
@@ -30,9 +30,9 @@ const invoicesSlice = createSlice({
                             "May 01 2022": 0,
                             "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
-                            "Aug 01 2022": 831.12,
-                            "Sep 01 2022": 70949.53,
-                            "Oct 01 2022": 353219.33,
+                            "Aug 01 2022": 831,
+                            "Sep 01 2022": 70949,
+                            "Oct 01 2022": 353219,
                             "Nov 01 2022": 0,
                             "Dec 01 2022": 0
                         },
@@ -44,9 +44,9 @@ const invoicesSlice = createSlice({
                             "May 01 2022": 0,
                             "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
-                            "Aug 01 2022": 919.80,
-                            "Sep 01 2022": 34469.20,
-                            "Oct 01 2022": 64611.00,
+                            "Aug 01 2022": 919,
+                            "Sep 01 2022": 34469,
+                            "Oct 01 2022": 64611,
                             "Nov 01 2022": 0,
                             "Dec 01 2022": 0
                         },
@@ -59,8 +59,8 @@ const invoicesSlice = createSlice({
                             "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
-                            "Sep 01 2022": 144464.75,
-                            "Oct 01 2022": 122675.65,
+                            "Sep 01 2022": 144464,
+                            "Oct 01 2022": 122675,
                             "Nov 01 2022": 0,
                             "Dec 01 2022": 0
                         },
@@ -74,7 +74,7 @@ const invoicesSlice = createSlice({
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
                             "Sep 01 2022": 0,
-                            "Oct 01 2022": 249227.81,
+                            "Oct 01 2022": 249227,
                             "Nov 01 2022": 0,
                             "Dec 01 2022": 0
                         },
@@ -100,9 +100,9 @@ const invoicesSlice = createSlice({
                             "May 01 2022": 0,
                             "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
-                            "Aug 01 2022": 17059.71,
-                            "Sep 01 2022": 39179.43,
-                            "Oct 01 2022": 18112.69,
+                            "Aug 01 2022": 17059,
+                            "Sep 01 2022": 39179,
+                            "Oct 01 2022": 18112,
                             "Nov 01 2022": 0,
                             "Dec 01 2022": 0
                         },
@@ -114,9 +114,9 @@ const invoicesSlice = createSlice({
                             "May 01 2022": 0,
                             "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
-                            "Aug 01 2022": 17265.25,
-                            "Sep 01 2022": 58025.58,
-                            "Oct 01 2022": 73967.71,
+                            "Aug 01 2022": 17265,
+                            "Sep 01 2022": 58025,
+                            "Oct 01 2022": 73967,
                             "Nov 01 2022": 0,
                             "Dec 01 2022": 0
                         },
@@ -128,9 +128,9 @@ const invoicesSlice = createSlice({
                             "May 01 2022": 0,
                             "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
-                            "Aug 01 2022": 15772.19,
-                            "Sep 01 2022": 76566.49,
-                            "Oct 01 2022": 57661.32,
+                            "Aug 01 2022": 15772,
+                            "Sep 01 2022": 76566,
+                            "Oct 01 2022": 57661,
                             "Nov 01 2022": 0,
                             "Dec 01 2022": 0
                         } 
@@ -269,8 +269,8 @@ const invoicesSlice = createSlice({
                 "campaign3": {
                     "partners": {
                         "Meta": {
-                            "Jan 01 2022": 50,
-                            "Feb 01 2022": 100,
+                            "Jan 01 2022": 0,
+                            "Feb 01 2022": 1000,
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
@@ -283,8 +283,8 @@ const invoicesSlice = createSlice({
                             "Dec 01 2022": 0
                         },
                         "Apex": {
-                            "Jan 01 2022": 50,
-                            "Feb 01 2022": 100,
+                            "Jan 01 2022": 0,
+                            "Feb 01 2022": 1000,
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
@@ -297,8 +297,8 @@ const invoicesSlice = createSlice({
                             "Dec 01 2022": 0
                         },
                         "Bustle": {
-                            "Jan 01 2022": 50,
-                            "Feb 01 2022": 100,
+                            "Jan 01 2022": 0,
+                            "Feb 01 2022": 1000,
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
@@ -311,8 +311,8 @@ const invoicesSlice = createSlice({
                             "Dec 01 2022": 0
                         },
                         "Ebony": {
-                            "Jan 01 2022": 50,
-                            "Feb 01 2022": 100,
+                            "Jan 01 2022": 0,
+                            "Feb 01 2022": 1000,
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
@@ -325,8 +325,8 @@ const invoicesSlice = createSlice({
                             "Dec 01 2022": 0
                         },
                         "Hearst": {
-                            "Jan 01 2022": 50,
-                            "Feb 01 2022": 100,
+                            "Jan 01 2022": 0,
+                            "Feb 01 2022": 1000,
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
@@ -339,8 +339,8 @@ const invoicesSlice = createSlice({
                             "Dec 01 2022": 0
                         },
                         "Pinterest": {
-                            "Jan 01 2022": 50,
-                            "Feb 01 2022": 100,
+                            "Jan 01 2022": 0,
+                            "Feb 01 2022": 1000,
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
@@ -353,8 +353,8 @@ const invoicesSlice = createSlice({
                             "Dec 01 2022": 0
                         },
                         "Snapchat": {
-                            "Jan 01 2022": 50,
-                            "Feb 01 2022": 100,
+                            "Jan 01 2022": 0,
+                            "Feb 01 2022": 1000,
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
@@ -367,8 +367,8 @@ const invoicesSlice = createSlice({
                             "Dec 01 2022": 0
                         },
                         "TikTok": {
-                            "Jan 01 2022": 50,
-                            "Feb 01 2022": 100,
+                            "Jan 01 2022": 0,
+                            "Feb 01 2022": 1000,
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
@@ -381,8 +381,8 @@ const invoicesSlice = createSlice({
                             "Dec 01 2022": 0
                         },
                         "Vox": {
-                            "Jan 01 2022": 50,
-                            "Feb 01 2022": 100,
+                            "Jan 01 2022": 0,
+                            "Feb 01 2022": 1000,
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
@@ -530,6 +530,9 @@ const invoicesSlice = createSlice({
         }
     },
     reducers: {
+        createInvoice: (state, action) => {
+            state.allClients.client1[action.campaign].partners[action.partner][action.month] = Number(action.amount)
+        }
     }
 })
 

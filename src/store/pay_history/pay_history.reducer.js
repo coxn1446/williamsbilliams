@@ -316,7 +316,7 @@ const payHistorySlice = createSlice({
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
-                            "Jun 01 2022": 1000,
+                            "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
                             "Sep 01 2022": 0,
@@ -330,7 +330,7 @@ const payHistorySlice = createSlice({
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
-                            "Jun 01 2022": 1000,
+                            "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
                             "Sep 01 2022": 0,
@@ -344,7 +344,7 @@ const payHistorySlice = createSlice({
                             "Mar 01 2022": 200,
                             "Apr 01 2022": 600,
                             "May 01 2022": 100,
-                            "Jun 01 2022": 1000,
+                            "Jun 01 2022": 0,
                             "Jul 01 2022": 0,
                             "Aug 01 2022": 0,
                             "Sep 01 2022": 0,
@@ -446,8 +446,8 @@ const payHistorySlice = createSlice({
                             "Mar 01 2022": 0,
                             "Apr 01 2022": 4000,
                             "May 01 2022": 550,
-                            "Jun 01 2022": 10000,
-                            "Jul 01 2022": 2040,
+                            "Jun 01 2022": 0,
+                            "Jul 01 2022": 0,
                             "Aug 01 2022": 6090,
                             "Sep 01 2022": 0,
                             "Oct 01 2022": 0,
@@ -460,8 +460,8 @@ const payHistorySlice = createSlice({
                             "Mar 01 2022": 0,
                             "Apr 01 2022": 4000,
                             "May 01 2022": 550,
-                            "Jun 01 2022": 10000,
-                            "Jul 01 2022": 2040,
+                            "Jun 01 2022": 0,
+                            "Jul 01 2022": 0,
                             "Aug 01 2022": 6090,
                             "Sep 01 2022": 0,
                             "Oct 01 2022": 0,
@@ -474,8 +474,8 @@ const payHistorySlice = createSlice({
                             "Mar 01 2022": 0,
                             "Apr 01 2022": 4000,
                             "May 01 2022": 550,
-                            "Jun 01 2022": 10000,
-                            "Jul 01 2022": 2040,
+                            "Jun 01 2022": 0,
+                            "Jul 01 2022": 0,
                             "Aug 01 2022": 6090,
                             "Sep 01 2022": 0,
                             "Oct 01 2022": 0,
@@ -530,6 +530,9 @@ const payHistorySlice = createSlice({
         }
     },
     reducers: {
+        sendPartnerInvoice: (state, action) => {
+            state.allClients.client1[action.campaign].partners[action.partner][action.month] = action.amount
+        }
     }
 })
 

@@ -1,13 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./Form.css"
 import {useDispatch} from 'react-redux';
 
-//State Selectors
-import {selectPrismaPlannedSpend} from "../../store/prisma_planned_spend/prisma_planned_spend.reducer"
-import {selectInvoices} from "../../store/invoices/invoices.reducer"
-
 const Form = () => {
     const dispatch = useDispatch()
+    const [formStyle, setFormStyle] = useState('none')
 
     const changeSelectionClient = (e) => {
         e.preventDefault();
@@ -15,6 +12,7 @@ const Form = () => {
             type: "app/changeClient",
             client: e.target.value,
         })
+        setFormStyle('flex')
     }
     const changeSelectionCampaign = (e) => {
         e.preventDefault();
@@ -33,17 +31,18 @@ const Form = () => {
    
     return (
         <div className="formDiv">
-        <form>
-            <section>
-                <label htmlFor='client'>Client</label>
+        <p style={{gridColumn: "1 / span 10", textAlign:"center"}}>Use this form to filter the table below.</p>
+        <form className="form">
+            <section className="formSection">
+                <label htmlFor='client' className="formLabel">Client</label>
                 <select name="client" id="client" onChange={changeSelectionClient}>
                     <option value="" disabled selected>Select your option</option>
                     <option value="client1">client1</option>
                 </select>
             </section>
             {
-            <section>
-                <label htmlFor='campaign'>Campaign</label>
+            <section style={{display: formStyle}} className="formSection">
+                <label htmlFor='campaign' className="formLabel">Campaign</label>
                 <select name="campaign" id="campaign" onChange={changeSelectionCampaign}>
                 <option value="" disabled selected>Select your option</option>
                     <option value="None">None</option>
@@ -54,8 +53,8 @@ const Form = () => {
                 </select>
             </section>
             }
-            <section>
-                <label htmlFor='partner'>Partner</label>
+            <section style={{display: formStyle}} className="formSection">
+                <label htmlFor='partner' className="formLabel">Partner</label>
                 <select name="partner" id="partner" onChange={changeSelectionPartner}>
                     <option value="" disabled selected>Select your option</option>
                     <option value="None">None</option>

@@ -1,0 +1,35 @@
+.creationButtonsDiv{
+    grid-column: 18 / span 14;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.creationButton{
+    margin: 5px;
+}
+
+.popUpForm{
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: -80px;
+}
+
+.popUpForm2{
+    visibility: visible;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+}

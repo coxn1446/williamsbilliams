@@ -30,7 +30,8 @@
   }
   .tooltip2 .tooltiptext2 {
     visibility:visible;
-    width: 120px;
+    width: 250px;
+    font-size:large;
     background-color: black;
     color: #fff;
     text-align: center;

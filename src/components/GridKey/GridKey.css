@@ -1,0 +1,17 @@
+.GridKeyDiv {
+    display: grid;
+    grid-column: 3 / span 14;
+    grid-row: span 1;
+    grid-template-columns: repeat(14, 1fr);
+    margin-bottom: 10px;
+}
+
+.activitySquareKey{
+    border: solid black 1px;
+    width: 150px;
+    grid-row: 1;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+}

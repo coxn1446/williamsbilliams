@@ -11,5 +11,5 @@ export default combineReducers({
   invoices: invoicesReducer,
   aging: agingReducer,
   payHistory: payHistoryReducer,
-  app: appReducer
+  app: appReducer,
 });
