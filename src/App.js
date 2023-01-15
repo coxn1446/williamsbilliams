@@ -1,16 +1,24 @@
 import './App.css';
-import ClientSection from "./components/ClientSection/ClientSection"
-import Form from "./components/Form/Form"
-import CreationButtons from "./components/CreationButtons/CreationButtons"
-import GridKey from "./components/GridKey/GridKey"
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from 'react-router-dom';
 
-function App() {
+import Vendor from "./routes/Vendor/Vendor"
+import Client from "./routes/Client/Client"
+
+
+function App () {
+
   return (
     <div className="gridContainer">
-      <Form key="form1"></Form>
-      <CreationButtons key="buttons1"></CreationButtons>
-      <GridKey key="gridKey1"></GridKey>
-      <ClientSection key="clientSection1"></ClientSection>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Vendor></Vendor>}/>
+          <Route path="/client" element={<Client></Client>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,43 @@
+.authorizationName{
+    grid-row: 5 / span 1;
+    text-align: center;
+    font-size: 11px;
+
+}
+
+.clientAuthorizationContainer {
+    grid-column: 2 / span 18;
+    grid-template-columns: repeat(18, 40.5px);
+    display: grid;
+}
+
+.clientAuthorizationSection {
+    grid-column: 1 / span 18;
+    grid-template-columns: repeat(18, 40.5px);
+    display: grid;
+}
+
+.authorizationTotal {
+    grid-template-columns: repeat(18, 40.5px);
+    display: grid;
+    grid-column: 1 / span 18
+
+}
+
+.clientCampaignContainer {
+    display: grid;
+    grid-column: 5 / span 12;
+    grid-template-columns: repeat(12, 40.5px);
+}
+.clientCampaignSection {
+    display: grid;
+    grid-column: 1 / span 12;
+    grid-template-columns: repeat(12, 40.5px);
+}
+
+.authorizationContainer {
+    display: grid;
+    grid-column: 2 / span 4;
+    grid-template-columns: repeat(4, 40.5px);
+
+}

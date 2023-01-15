@@ -1,0 +1,5 @@
+.gridContainerVendor {
+    display:grid;
+    grid-template-columns: repeat(31, 40.5px);
+    grid-template-rows: auto;
+}

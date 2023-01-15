@@ -1,0 +1,5 @@
+.clientPartnerSection{
+    display: grid;
+    grid-Column: 6 / span 8;
+    grid-template-columns: repeat(8, 40.5px);
+}
